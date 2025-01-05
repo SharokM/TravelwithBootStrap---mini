@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buildingwithbootstrap5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img/train.jpg" alt="navlogo" width="80"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h3 class="fs-1.5 text-center">Bootstrap Holidays      </h3>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Disabled</a> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROSEL  -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/morocco.webp" class="d-block w-100" alt="beachcove">
+          </div>
+          <div class="carousel-item">
+            <img src="img/valley.jpg" class="d-block w-100" alt="morocco">
+          </div>
+          <div class="carousel-item">
+            <img src="img/forest-mountains.jpg" class="d-block w-100" alt="forest & mountains">
+          </div>
+          <div class="carousel-item">
+            <img src="img/train.jpg" class="d-block w-100" alt="train">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+   
+
+    <!-- MAIN SECTION   -->
+     <div class="container">
+        <h1 class="text-center p-5 mt-5 mb-5">Find Your Next Destination!</h1>
+
+        <div class="w-100 bg-dark-subtle p-5">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt rem a molestiae, officia aliquid dicta quibusdam delectus ad dignissimos, voluptatem, accusamus enim autem iste placeat. Ducimus hic totam fugit iure similique incidunt minima, maxime accusantium, tenetur minus dolorum omnis excepturi quis dignissimos aliquam voluptatum voluptates deserunt non doloribus culpa a! Id commodi ducimus explicabo asperiores laboriosam nihil unde pariatur! Inventore iste velit soluta deleniti eius vel, molestias, tenetur, distinctio numquam magnam autem obcaecati. Tenetur vitae quisquam cumque eveniet quis expedita magnam error repellendus voluptatem. Quidem, ex accusantium magnam provident explicabo tempora cupiditate inventore fugiat dicta in sed vitae dolorum repudiandae.</p>
+            <button type="button" class="btn btn-primary btn-lg">Book Your Trip Now</button>
+
+        
+        </div>
+        <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">Popular Destinations</h2>
+
+        <div class="row">
+            <div class="col">
+                <!-- CARD 1 -->
+                <div class="card">
+                    <img src="img/passportready.jpg" class="card-img-top" alt="travel ready!">
+                    <div class="card-body">
+                      <h5 class="card-title">Destination 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eum blanditiis quas quis consectetur quod, nostrum illum sit fugiat facilis harum asperiores enim provident consequatur impedit ad. At, minus molestiae?</p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <!-- CARD 2 -->
+                    <div class="card">
+                        <img src="img/plane.jpg" class="card-img-top" alt="On the way!">
+                        <div class="card-body">
+                          <h5 class="card-title">Destination 2</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eum blanditiis quas quis consectetur quod, nostrum illum sit fugiat facilis harum asperiores enim provident consequatur impedit ad. At, minus molestiae?</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <!-- CARD 3 -->
+                        <div class="card">
+                            <img src="img/traingirl.jpg" class="card-img-top" alt="Arrival by train!">
+                            <div class="card-body">
+                              <h5 class="card-title">Destination 3</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eum blanditiis quas quis consectetur quod, nostrum illum sit fugiat facilis harum asperiores enim provident consequatur impedit ad. At, minus molestiae?</p>
+                              <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                          </div>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- ABOUT SECTION  -->
+
+        <h2 id="about" class="fs-1 p-5 mt-5 mb-5 text-center">About</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="bg-dark-subtle p-0 mt-5 mb-5 w-45">
+                    <h2>Rates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque earum eos nostrum. Possimus eius saepe est vero ipsam repudiandae blanditiis ab excepturi cupiditate optio consequatur temporibus in autem pariatur laboriosam aperiam cum quo esse, impedit sapiente delectus ut? Unde eum aliquid harum ipsa laborum commodi odio! Quidem, perspiciatis tenetur?</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-secondary text-white p-0 mt-5 mb-5 w-45">
+                    <h2>Sites</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque earum eos nostrum. Possimus eius saepe est vero ipsam repudiandae blanditiis ab excepturi cupiditate optio consequatur temporibus in autem pariatur laboriosam aperiam cum quo esse, impedit sapiente delectus ut? Unde eum aliquid harum ipsa laborum commodi odio! Quidem, perspiciatis tenetur?</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-dark-subtle p-0 mt-5 mb-5 w-45">
+                    <h2>Features</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque earum eos nostrum. Possimus eius saepe est vero ipsam repudiandae blanditiis ab excepturi cupiditate optio consequatur temporibus in autem pariatur laboriosam aperiam cum quo esse, impedit sapiente delectus ut? Unde eum aliquid harum ipsa laborum commodi odio! Quidem, perspiciatis tenetur?</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-secondary text-white p-0 mt-5 mb-5 w-45">
+                    <h2>Fees</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque earum eos nostrum. Possimus eius saepe est vero ipsam repudiandae blanditiis ab excepturi cupiditate optio consequatur temporibus in autem pariatur laboriosam aperiam cum quo esse, impedit sapiente delectus ut? Unde eum aliquid harum ipsa laborum commodi odio! Quidem, perspiciatis tenetur?</p>
+                </div>
+            </div>
+        </div>
+ <!-- CONTACT US -->
+
+        <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">Contact Us</h2>
+       
+        <div class="w-100 bg-dark-subtle p-5">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt rem a molestiae, officia aliquid dicta quibusdam delectus ad dignissimos, voluptatem, accusamus enim autem iste placeat. Ducimus hic totam fugit iure similique incidunt minima, maxime accusantium, tenetur minus dolorum omnis excepturi quis dignissimos aliquam voluptatum voluptates deserunt non doloribus culpa a! Id commodi ducimus explicabo asperiores laboriosam nihil unde pariatur! Inventore iste velit soluta deleniti eius vel, molestias, tenetur, distinctio numquam magnam autem obcaecati. Tenetur vitae quisquam cumque eveniet quis expedita magnam error repellendus voluptatem. Quidem, ex accusantium magnam provident explicabo tempora cupiditate inventore fugiat dicta in sed vitae dolorum repudiandae.</p>
+            <button type="button" class="btn btn-primary btn-lg"><a href="mailto: email@email.com" class="text-white text-decoration-none">Contact Us For More information</a></button>
+
+
+        <h2 class="fs-1 p-5 mt-5 mb-2 text-center">Relax and Enjoy!</h2>
+        <img src="img/beachcove.jpg" alt="beach cove" class="w-100">
+
+
+    </div>
+    <!-- END MAIN SECTION  -->
+
+    <!-- FOOTER  -->
+    <footer class="bg-dark mt-5 p-5 text-center text-white">
+        <p>&copy; Start you journey Today!</p>
+        <p><a href="mailto: email@email.com" class="text-white">Email Us</a></p>
+
+    </footer>
+
+    <!-- END FOOTER  -->
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
